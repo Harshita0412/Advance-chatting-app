@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "This is a node server for our connectify application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Harshita",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.4"
+  }
+}
